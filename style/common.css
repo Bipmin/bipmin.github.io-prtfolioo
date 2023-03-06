@@ -5,9 +5,7 @@
   clear: both;
 }
 
-:root {
-  --colorBlue: #1779ff;
-}
+
 
 body{
   background: #000;
@@ -30,10 +28,6 @@ body{
 
 .textColor {
     color: white;
-}
-
-p{
-  color: var(--colorBlue);
 }
 
 
