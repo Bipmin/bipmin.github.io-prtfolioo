@@ -76,6 +76,12 @@ p {
   
 }
 
+.firstViewImg {
+    width: 100px;
+    height: 1080px;
+}
+
+
 .title {
     margin-left: 150px;
     position: relative;

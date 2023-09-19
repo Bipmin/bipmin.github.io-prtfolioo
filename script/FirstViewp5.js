@@ -66,14 +66,14 @@ class Branch {
         }
     }
     drawMe() {
-        strokeWeight(6 - this.level);
+        strokeWeight(1 - this.level);
         for (let i = 0; i < this.outerPoints.length; i++) {
             let nexti = i + 1;
             if (nexti == this.outerPoints.length) { nexti = 0; } {
                 line(this.outerPoints[i].x, this.outerPoints[i].y, this.outerPoints[nexti].x, this.outerPoints[nexti].y);
             }
         }
-        strokeWeight(0.5);
+        strokeWeight(0.3);
         fill(255, 150);
         for (let j = 0; j < this.midPoints.length; j++) {
             line(this.midPoints[j].x, this.midPoints[j].y, this.projPoints[j].x, this.projPoints[j].y);
