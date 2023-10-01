@@ -202,12 +202,13 @@ body {
 
 
 .Favorimate_Box {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 
 .FavoriteTitle {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .Favorimate {
@@ -278,7 +279,7 @@ margin-top:25px;
 
 .Works_Box {
     margin-top: 180px;
-    margin-left: 400px;
+    margin-left: 300px;
     display: flex;
 }
 
